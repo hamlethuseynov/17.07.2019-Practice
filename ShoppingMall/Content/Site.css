@@ -1,0 +1,58 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.products .card {
+    position: relative;
+}
+
+    .products .card .card-title {
+        min-height: 48px;
+    }
+
+    .products .card .label {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        padding: 5px 10px;
+        background: #1EBE5F;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .products .card .prices {
+        display: flex;
+        align-items: center;
+    }
+
+    .products .card .price {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .products .card .discount-price {
+        margin-left: 5px;
+        color: #E53935;
+        font-weight: bold;
+        text-decoration: line-through;
+    }
